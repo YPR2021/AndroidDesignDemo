@@ -11,15 +11,19 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".TranslucentBarActivity.TestTranslucentBarActivity"
-                  android:theme="@style/TestTranslucentTheme"/>
+        <activity
+            android:name=".TranslucentBarActivity.TestTranslucentBarActivity"
+            android:theme="@style/TestTranslucentTheme"/>
+        <activity
+            android:name=".CoordinatorActivity.CoordinatorActivity"
+           />
     </application>
 
 </manifest>
