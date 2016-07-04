@@ -21,9 +21,15 @@
         <activity
             android:name=".TranslucentBarActivity.TestTranslucentBarActivity"
             android:theme="@style/TestTranslucentTheme"/>
+        <activity android:name=".CoordinatorActivity.CoordinatorActivity"/>
+        <activity android:name=".CollapsingToolbarActivity.CollapsingToolbarActivity"/>
         <activity
-            android:name=".CoordinatorActivity.CoordinatorActivity"
-           />
+            android:name=".MaterialDesign.MaterialDesignActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".NavigationViewActivity.NavigationViewActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <!--改成NoActionBar,状态栏的颜色也会随侧边栏变化而变化-->
     </application>
 
 </manifest>
