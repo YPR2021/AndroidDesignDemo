@@ -160,11 +160,11 @@ public class CoordinatorActivity extends AppCompatActivity implements View.OnCli
 		//这里是处理menu中选中item的地方
 		int id = item.getItemId();
 		if (id == R.id.action_setting)
-			Toast.makeText(CoordinatorActivity.this, "点击了Setting", Toast.LENGTH_SHORT).show();
+			Toast.makeText(this, "点击了Setting", Toast.LENGTH_SHORT).show();
 		else if (id == R.id.action_search)
-			Toast.makeText(CoordinatorActivity.this, "点击了Search", Toast.LENGTH_SHORT).show();
+			Toast.makeText(this, "点击了Search", Toast.LENGTH_SHORT).show();
 		else if (id == R.id.action_notification)
-			Toast.makeText(CoordinatorActivity.this, "点击了Notification", Toast.LENGTH_SHORT).show();
+			Toast.makeText(this, "点击了Notification", Toast.LENGTH_SHORT).show();
 		return super.onOptionsItemSelected(item);
 	}
 

@@ -38,7 +38,7 @@
             android:id="@+id/material_design"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="NavigationView"/>
+            android:text="MaterialDesign"/>
     </LinearLayout>
 
 </android.support.v4.widget.DrawerLayout>

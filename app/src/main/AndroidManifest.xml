@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.yang.androiddesigndemo">
+    package="com.example.yang.androiddesigndemo">
 
     <application
         android:allowBackup="true"
@@ -13,22 +13,24 @@
             android:label="@string/app_name"
             android:theme="@style/AppTheme">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".TranslucentBarActivity.TestTranslucentBarActivity"
-            android:theme="@style/TestTranslucentTheme"/>
-        <activity android:name=".CoordinatorActivity.CoordinatorActivity"/>
-        <activity android:name=".CollapsingToolbarActivity.CollapsingToolbarActivity"/>
+            android:theme="@style/TestTranslucentTheme" />
+        <activity
+            android:name=".CoordinatorActivity.CoordinatorActivity" />
+        <activity
+            android:name=".CollapsingToolbarActivity.CollapsingToolbarActivity" />
         <activity
             android:name=".MaterialDesign.MaterialDesignActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            />
         <activity
             android:name=".NavigationViewActivity.NavigationViewActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <!--改成NoActionBar,状态栏的颜色也会随侧边栏变化而变化-->
     </application>
 

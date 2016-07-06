@@ -15,9 +15,11 @@
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
         <!--  app:layout_scrollFlags="scroll|exitUntilCollapsed"代表toolbar会缩小但是不会消失-->
-        <!--app:expandedTitleMarginEnd="60dp"-->
-        <!--app:expandedTitleMarginStart="48dp"-->
+        <!--app:expandedTitleMarginEnd="60dp"标题距离右边的距离-->
+        <!--app:expandedTitleMarginStart="40dp"标题距离左边的距离-->
         <android.support.design.widget.CollapsingToolbarLayout
+            app:expandedTitleMarginEnd="60dp"
+            app:expandedTitleMarginStart="40dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:contentScrim="?attr/colorPrimary"
@@ -28,7 +30,7 @@
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
                 android:src="@mipmap/head"
-                app:layout_collapseMode="parallax"/>
+                app:layout_collapseMode="pin"/>
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
@@ -43,7 +45,7 @@
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
     </android.support.v7.widget.RecyclerView>
